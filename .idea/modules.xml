@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/MoodAnalyer.iml" filepath="$PROJECT_DIR$/.idea/MoodAnalyer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MoodAnalyser.iml" filepath="$PROJECT_DIR$/MoodAnalyser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MoodAnalyser.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MoodAnalyser.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MoodAnalyser.test.iml" filepath="$PROJECT_DIR$/.idea/modules/MoodAnalyser.test.iml" />
+    </modules>
+  </component>
+</project>
