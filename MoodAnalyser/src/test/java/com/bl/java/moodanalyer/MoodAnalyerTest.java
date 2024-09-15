@@ -1,18 +1,24 @@
 package com.bl.java.moodanalyer;
 
-import org.junit.jupiter.api.Test;
+import org.testng.annotations.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class MoodAnalyerTest {
+class MoodAnalyserTest {
 
     @Test
+
     public void givenMessage_WhenProper_ShouldReturnSad(){
-        MoodAnalyer moodAnalyser = new MoodAnalyer();
-        String result = moodAnalyser.analyseMood("I am In Happy mood.");
+        MoodAnalyer moodAnalyser = new MoodAnalyer("I Am In Sad mood.");
+        String result = moodAnalyser.analyseMood();
         System.out.println(result);
-        assertEquals("Happy" , result);
+        assertEquals("SAD" , result);
     }
-
-
+    @Test
+    public void givenMessage_WhenProper_ShouldReturnHappy(){
+        MoodAnalyer moodAnalyser = new MoodAnalyer("I Am In a Happy mood.");
+        String result = moodAnalyser.analyseMood();
+        System.out.println(result);
+        assertEquals("HAPPY" , result);
+    }
 }
