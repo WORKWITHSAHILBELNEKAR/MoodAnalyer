@@ -29,6 +29,6 @@ public class MoodAnalyer {
             System.out.println("Please Enter the Valid Mood.");
         }
 
-        return "NULL";
+        return "HAPPY";
     }
     }
