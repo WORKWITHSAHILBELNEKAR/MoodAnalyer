@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bl.java.moodanalyer.MoodAnalyerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-15T05:26:31" hostname="DESKTOP-JJNPRGJ" time="0.016">
+<testsuite name="com.bl.java.moodanalyer.MoodAnalyerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-09-15T05:48:15" hostname="DESKTOP-JJNPRGJ" time="0.021">
   <properties/>
-  <testcase name="givenMessage_WhenProper_ShouldReturnHappy()" classname="com.bl.java.moodanalyer.MoodAnalyerTest" time="0.016"/>
+  <testcase name="givenMessage_WhenProper_ShouldReturnHappy()" classname="com.bl.java.moodanalyer.MoodAnalyerTest" time="0.017"/>
+  <testcase name="givenMessage_WhenProper_ShouldReturnSad()" classname="com.bl.java.moodanalyer.MoodAnalyerTest" time="0.001"/>
+  <testcase name="givenMessage_WhenNull_ShouldReturn()" classname="com.bl.java.moodanalyer.MoodAnalyerTest" time="0.001"/>
   <system-out><![CDATA[HAPPY
+SAD
+NULL
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
