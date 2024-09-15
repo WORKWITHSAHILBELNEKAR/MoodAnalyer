@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bl.java.moodanalyer.MoodAnalyerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-15T05:19:46" hostname="DESKTOP-JJNPRGJ" time="0.017">
+  <properties/>
+  <testcase name="givenMessage_WhenProper_ShouldReturnSad()" classname="com.bl.java.moodanalyer.MoodAnalyerTest" time="0.017"/>
+  <system-out><![CDATA[SAD
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
